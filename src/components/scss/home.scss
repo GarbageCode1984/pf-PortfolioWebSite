@@ -1,0 +1,13 @@
+.mainImage {
+  background: url("../../../public/Main.jpg") no-repeat center center / cover;
+  height: 100vh;
+
+  p {
+    color: #fff;
+    font-size: 48px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
