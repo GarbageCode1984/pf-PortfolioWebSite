@@ -1,31 +1,32 @@
 .box-wrap {
-  border: 1px solid pink;
-  background-color: rgba(95, 154, 250, 0.163);
+    border: 1px solid pink;
+    background-color: rgba(95, 154, 250, 0.163);
 }
 .card-name {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: rgba(180, 80, 242, 0.389);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(180, 80, 242, 0.389);
 }
 .card-wrap {
-  height: 40vh;
-  width: 60vw;
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-evenly;
-  .image-box {
-    img {
-      width: 500px;
-      height: 400px;
-      object-fit: cover;
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    .image-box {
+        img {
+            width: 20vw;
+            height: 40vh;
+            object-fit: cover;
+        }
     }
-  }
-  .project-link {
-    width: 20vw;
-    background-color: rgba(91, 91, 91, 0.105);
-    p {
-      padding: 20px 0 0 5px;
+    .project-link {
+        width: 20vw;
+        height: 40vh;
+        background-color: rgba(91, 91, 91, 0.105);
+        p {
+            padding: 20px 0 0 5px;
+        }
     }
-  }
 }

@@ -1,26 +1,31 @@
 import React from "react";
-import "./scss/projectCard.scss";
+import {
+    Card,
+    CardImg,
+    CardText,
+    CardBody,
+    CardTitle,
+    CardSubtitle,
+    Button,
+} from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function ProjectCard({ name, image, pInfo, gitLog, webSite }) {
-  return (
-    <div>
-      <div className="box-wrap">
-        <h1 className="card-name">{name}</h1>
-        <div className="card-wrap">
-          <div className="image-box">
-            <img src={`${image}`} alt="" />
-          </div>
-          <div className="project-link">
-            <p>{pInfo}</p>
-            <hr />
-            <p>깃허브 주소 : {gitLog}</p>
-            <p>웹사이트 링크</p>
-            <p>사용한 스킬</p>
-          </div>
+function ProjectCard() {
+    return (
+        <div>
+            <div className="col-12">
+                <Card>
+                    <CardImg src={"/project1.PNG"} alt="Card image" />
+                    <CardBody className="d-flex flex-column align-items-center">
+                        <CardTitle>Card 제목</CardTitle>
+                        <CardSubtitle>Card 부제목</CardSubtitle>
+                        <CardText>Card 내용</CardText>
+                        <Button>버튼</Button>
+                    </CardBody>
+                </Card>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default ProjectCard;
