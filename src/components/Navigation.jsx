@@ -8,7 +8,7 @@ function Navigation() {
     <>
       <Navbar bg="light" variant="light" sticky="top" className="navbar">
         <Container fluid>
-          <Nav className="me-auto navWrap">
+          <Nav className="me-auto navWrap" lg="8">
             <Link to="home">
               <Nav.Link className="navItem" href="#home">
                 HOME

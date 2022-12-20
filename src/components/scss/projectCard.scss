@@ -1,32 +1,32 @@
-.box-wrap {
-    border: 1px solid pink;
-    background-color: rgba(95, 154, 250, 0.163);
+.cardWrap {
+  border: 1px solid rgb(255, 179, 179);
+  margin-bottom: 100px;
 }
-.card-name {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(180, 80, 242, 0.389);
+
+.cardName {
+  font-size: 56px;
+  font-weight: bold;
+  color: rgb(0, 78, 168);
 }
-.card-wrap {
-    height: 50vh;
-    width: 60vw;
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-evenly;
-    .image-box {
-        img {
-            width: 20vw;
-            height: 40vh;
-            object-fit: cover;
-        }
-    }
-    .project-link {
-        width: 20vw;
-        height: 40vh;
-        background-color: rgba(91, 91, 91, 0.105);
-        p {
-            padding: 20px 0 0 5px;
-        }
-    }
+.cardHash {
+  color: rgba(255, 0, 0, 0.541);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 0 5px 0;
+}
+.cardText {
+  font-size: 14px;
+  padding-bottom: 30px;
+  color: rgba(10, 25, 233, 0.726);
+  font-weight: bold;
+}
+.cardRes {
+  color: rgb(136, 136, 136);
+  padding: 15px 0;
+}
+.webLink {
+  color: #000;
+  &:hover {
+    color: #fff;
+  }
 }

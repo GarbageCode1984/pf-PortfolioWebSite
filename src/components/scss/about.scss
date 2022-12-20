@@ -1,34 +1,41 @@
 .boxWrap {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .aboutFirst,
+  .aboutEnd {
+    border: 1px solid rgb(255, 255, 255);
+    width: 32%;
+    height: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    .aboutFirst,
-    .aboutEnd {
-        border: 1px solid rgb(255, 255, 255);
-        width: 32%;
-        height: 80%;
-        // background-color: rgba(224, 220, 220, 0.795);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background: linear-gradient(
-            50deg,
-            rgba(255, 255, 255, 0.342),
-            rgba(197, 103, 240, 0.445)
-        );
-        p {
-            /*   display: flex;
-      justify-content: center;
-      align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+      50deg,
+      rgba(255, 255, 255, 0.342),
+      rgba(197, 103, 240, 0.445)
+    );
+    p {
       width: 80%;
-      height: inherit; */
-            width: 80%;
-            padding: 20px;
-            color: rgb(129, 129, 129);
-            font-size: 26px;
-        }
+      padding: 20px;
+      color: rgb(129, 129, 129);
+      font-size: 26px;
     }
+  }
+}
+@media (max-width: 769px) {
+  .boxWrap {
+    height: 100%;
+    margin: 50px 0;
+    display: block;
+    .aboutFirst {
+      width: 100%;
+    }
+    .aboutEnd {
+      width: 100%;
+    }
+  }
 }
