@@ -9,7 +9,7 @@ function Skilles() {
     <Container fluid>
       <div className="skill_wrap" id="skilles">
         <Row xl={12} sm={6}>
-          <Col xl={3} sm={4} style={{ paddingBottom: 50 }}>
+          <Col className="skillPB" xl={3} sm={4} style={{ paddingBottom: 50 }}>
             <span className="skill_sircle">
               <img src="/html.png" alt="html" />
               <p>HTML</p>
@@ -27,7 +27,7 @@ function Skilles() {
               <p>JavaScript</p>
             </span>
           </Col>
-          <Col xl={3} sm={4} style={{ paddingBottom: 50 }}>
+          <Col className="skillPB" xl={3} sm={4} style={{ paddingBottom: 50 }}>
             <span className="skill_sircle">
               <img src="/sass.png" alt="sass" />
               <p>sass</p>
@@ -51,7 +51,7 @@ function Skilles() {
               <p>Github</p>
             </span>
           </Col>
-          <Col xl={3} sm={4} style={{ paddingBottom: 50 }}>
+          <Col className="skillPB" xl={3} sm={4} style={{ paddingBottom: 50 }}>
             <span className="skill_sircle">
               <img src="/bootstrap.png" alt="bootstrap" />
               <p>bootstrap</p>
