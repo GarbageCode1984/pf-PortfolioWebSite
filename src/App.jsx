@@ -9,15 +9,15 @@ import Skilles from "./components/Skilles";
 import "./components/scss/reset.scss";
 
 function App() {
-    return (
-        <>
-            <Home />
-            <Navigation />
-            <About />
-            <Skilles />
-            <Project />
-        </>
-    );
+  return (
+    <>
+      <Home />
+      <Navigation />
+      <About />
+      <Skilles />
+      <Project />
+    </>
+  );
 }
 
 export default App;
