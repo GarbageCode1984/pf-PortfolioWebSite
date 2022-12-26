@@ -6,50 +6,63 @@
     align-items: center;
 
     .profile {
-        width: 30vw;
-        height: 70vh;
-        border: 1px solid rgba(243, 249, 197, 0.575);
+        width: 25vw;
+        height: 40vh;
+        border: 1px solid rgba(243, 152, 152, 0.575);
         padding: 10px;
         box-shadow: 5px 5px 10px;
-        background-color: rgba(236, 236, 236, 0.408);
         h1 {
             font-size: 56px;
             font-weight: bold;
             text-shadow: 2px 2px 10px;
             padding-bottom: 20px;
             color: rgb(240, 136, 136);
-            text-align: center;
         }
         p {
             font-size: 18px;
             color: rgb(77, 77, 77);
             padding: 5px 0;
             font-weight: bold;
-            text-align: center;
-            padding: 15px 0;
         }
     }
     .aboutText {
-        width: 40vw;
-        height: 70vh;
-        background-color: rgba(236, 236, 236, 0.408);
-        border: 1px solid rgba(210, 245, 185, 0.575);
+        width: 50vw;
+        height: 40vh;
+        border: 1px solid rgba(152, 173, 243, 0.575);
         padding: 10px;
         box-shadow: 5px 5px 10px;
-        margin-left: 100px;
-
-        img {
-            width: 20%;
-            height: 20%;
-            margin: auto;
-            display: block;
-        }
+        margin-left: 150px;
+        position: relative;
         p {
+            animation-name: swapColor;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
             font-size: 18px;
             color: rgb(76, 76, 77);
-            line-height: 2.5;
+            line-height: 1.5;
             font-weight: bold;
-            text-align: center;
+        }
+        img {
+            position: absolute;
+            bottom: 0;
+            width: 50px;
+            right: 3%;
+            height: 50px;
+        }
+        @keyframes swapColor {
+            0% {
+                color: rgb(0, 0, 0);
+            }
+            50% {
+                color: rgba(97, 96, 96, 0.479);
+            }
+            100% {
+                color: #000;
+            }
+        }
+        .spinnerP {
+            color: #fff;
         }
     }
 }

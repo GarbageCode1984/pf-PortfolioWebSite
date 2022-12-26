@@ -1,6 +1,6 @@
 import React from "react";
 import "./scss/about.scss";
-import { Button, Spinner, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
     return (
@@ -20,6 +20,10 @@ function About() {
                         </Col>
                         <Col>
                             <div className="aboutText">
+                                <img
+                                    src="/smiling-face.png"
+                                    alt="smiling-face"
+                                />
                                 <p>
                                     탄탄한 기본기를 다지고 새로운 기술을 배우며
                                     <br /> 빠르게 변화하는 웹 트렌트에 적응하고{" "}
@@ -38,20 +42,6 @@ function About() {
                                 </p>
                                 <br />
                                 <br />
-                                <Button variant="dark">
-                                    <Spinner
-                                        as="span"
-                                        animation="border"
-                                        variant="danger"
-                                        size="sm"
-                                        role="status"
-                                        aria-hidden="true"
-                                    />{" "}
-                                    <div className="spinnerP">
-                                        경력 추가하기...
-                                    </div>
-                                </Button>
-                                <img src="/icon.png" alt="" />
                             </div>
                         </Col>
                     </div>
