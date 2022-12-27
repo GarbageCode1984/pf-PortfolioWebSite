@@ -36,6 +36,14 @@ function Project() {
       res: ["https://github.com/GarbageCode1984/pf-bing"],
       webLink: ["https://garbagecode1984.github.io/pf-bing/"],
     },
+    {
+      mainImage: ["/project5.PNG"],
+      name: ["Pinterest"],
+      hash: ["#반응형"],
+      skilles: ["HTML, CSS, JS, SCSS"],
+      res: ["https://github.com/GarbageCode1984/pf-Pinterest"],
+      webLink: ["https://garbagecode1984.github.io/pf-Pinterest/"],
+    },
   ];
 
   const itemList = items.map((index) => <ProjectCard items={index} />);
