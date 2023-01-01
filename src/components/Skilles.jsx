@@ -8,75 +8,69 @@ function Skilles() {
     return (
         <Container fluid>
             <div className="skill_wrap" id="skilles">
-                <h1 className="skillsH1">SKILLS</h1>
-                <Row xl={12} sm={6} className="ballBox">
-                    <Col
-                        className="skillPB"
-                        xl={3}
-                        sm={4}
-                        style={{ paddingBottom: 50 }}
-                    >
-                        <span className="skill_sircle ball_1 off">
-                            <img className="off" src="/html.png" alt="html" />
+                <h1>Skills</h1>
+                <Row>
+                    <Col className="circle">
+                        <span>
+                            <img src="/html.png" alt="" />
                             <p>HTML</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_2 off">
-                            <img src="/css.png" alt="css" />
+                    <Col className="circle">
+                        <span>
+                            <img src="/css.png" alt="" />
                             <p>CSS</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_3 off">
-                            <img src="/js.png" alt="js" />
-                            <p>JavaScript</p>
+                    <Col className="circle">
+                        <span>
+                            <img src="/js.png" alt="" />
+                            <p>JS</p>
                         </span>
                     </Col>
-                    <Col
-                        className="skillPB"
-                        xl={3}
-                        sm={4}
-                        style={{ paddingBottom: 50 }}
-                    >
-                        <span className="skill_sircle ball_4 off">
-                            <img src="/sass.png" alt="sass" />
-                            <p>sass</p>
+                    <Col className="circle">
+                        <span>
+                            <img src="/jquery.png" alt="" />
+                            <p>Jqeury</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_5 off">
-                            <img src="/react.png" alt="react" />
-                            <p>React</p>
+
+                    <Col className="circle">
+                        <span>
+                            <img src="/bootstrap.png" alt="" />
+                            <p>Bootstrap</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_6 off">
-                            <img src="/figma.png" alt="figma" />
-                            <p>Figma</p>
+                </Row>
+                <Row>
+                    <Col className="circle">
+                        <span>
+                            <img src="/sass.png" alt="" />
+                            <p>SASS</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_7  off">
-                            <img src="/github.png" alt="github" />
-                            <p>Github</p>
+                    <Col className="circle">
+                        <span>
+                            <img src="/github.png" alt="" />
+                            <p>GITHUB</p>
                         </span>
                     </Col>
-                    <Col
-                        className="skillPB"
-                        xl={3}
-                        sm={4}
-                        style={{ paddingBottom: 50 }}
-                    >
-                        <span className="skill_sircle ball_8 off">
-                            <img src="/bootstrap.png" alt="bootstrap" />
-                            <p>bootstrap</p>
+                    <Col className="circle">
+                        <span>
+                            <img src="/figma.png" alt="" />
+                            <p>FIGMA</p>
                         </span>
                     </Col>
-                    <Col xl={3} sm={4}>
-                        <span className="skill_sircle ball_9 off">
-                            <img src="/jquery.png" alt="jquery" />
-                            <p>jquery</p>
+                    <Col className="circle">
+                        <span>
+                            <img src="/react.png" alt="" />
+                            <p>REACT</p>
+                        </span>
+                    </Col>
+                    <Col className="circle">
+                        <span>
+                            <img src="/vue.png" alt="" />
+                            <p>VUE</p>
                         </span>
                     </Col>
                 </Row>

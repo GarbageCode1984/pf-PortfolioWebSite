@@ -1,23 +1,20 @@
 import React from "react";
 import "./scss/home.scss";
-
-function Main() {
+import { RxDoubleArrowDown } from "react-icons/rx";
+function Home() {
     return (
         <>
-            <div className="mainImage" id="home">
-                <h1>
-                    <span className="homeSpan">"미완성"</span>
-                    <br />
-                    <span className="homeSpan">안녕하세요.</span>
-                    <br />
-                    <span className="homeSpan">프론트엔드 개발자</span>
-                    <br />
-                    <span className="homeSpan">서우석입니다.</span>
-                </h1>
+            <div id="home" className="homeWrap">
+                <div class="homeContainer">
+                    <div class="neon">프론트엔드 개발자</div>
+                    <div class="flux">서우석입니다</div>
+                    <span>
+                        <RxDoubleArrowDown size="30" spin />
+                    </span>
+                </div>
             </div>
         </>
     );
 }
 
-export default Main;
-/*  https://codepen.io/WaelYasmina/pen/GRoMObx */
+export default Home;
