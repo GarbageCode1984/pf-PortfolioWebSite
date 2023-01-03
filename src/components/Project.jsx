@@ -97,8 +97,8 @@ function Project() {
       name: ["tire_tech"],
       hash: ["#쇼핑몰 #반응형"],
       skilles: ["HTML, CSS, JS"],
-      res: ["https://github.com/GarbageCode1984/pf-React-HNM"],
-      webLink: ["https://hnm1984.netlify.app/"],
+      res: ["https://github.com/GarbageCode1984/pf-tire_tech"],
+      webLink: ["https://garbagecode1984.github.io/pf-tire_tech/"],
     },
     {
       mainImage: ["/project13.PNG"],
