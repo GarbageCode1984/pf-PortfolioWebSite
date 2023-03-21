@@ -1,34 +1,45 @@
 .cardWrap {
-  border: 2px solid rgba(147, 147, 147, 0.615);
-  margin-bottom: 100px;
-  background-color: rgba(225, 238, 255, 0.781);
-  display: flex;
+    border: 2px solid rgba(147, 147, 147, 0.615);
+    margin-bottom: 100px;
+    background-color: rgba(225, 238, 255, 0.781);
+    display: flex;
 }
 
 .cardName {
-  font-size: 56px;
-  font-weight: bold;
-  color: rgb(0, 78, 168);
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 78, 168);
 }
-.cardHash {
-  color: rgba(255, 0, 0, 0.541);
-  font-weight: bold;
-  font-size: 16px;
-  padding: 5px 0 5px 0;
+.cardExplain {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
 }
-.cardText {
-  font-size: 14px;
-  padding-bottom: 30px;
-  color: rgba(255, 10, 222, 0.699);
-  font-weight: bold;
+.cardRole {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    padding: 15px 0;
+    p {
+        margin-right: 5px;
+    }
+    div {
+        background-color: #bbbbbb4a;
+        border-radius: 5px;
+        padding: 0 15px;
+    }
+}
+.cardStack {
+    font-size: 20px;
 }
 .cardRes {
-  color: rgb(136, 136, 136);
-  padding: 15px 0;
+    color: rgb(136, 136, 136);
+    padding: 15px 0;
 }
 .webLink {
-  color: #000;
-  &:hover {
-    color: #fff;
-  }
+    color: #000;
+    &:hover {
+        color: #fff;
+    }
 }

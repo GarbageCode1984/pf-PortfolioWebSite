@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "mainImage": "/project1.PNG",
+            "name": "원스토어",
+            "role": "Front-end",
+            "explain": "기업형 사이트로 반응형 웹을 적용하여 모바일 버전과 PC버전으로 구현한 사이트",
+            "stack": "HTML CSS JS",
+            "res": "https://github.com/GarbageCode1984/pf-onestore",
+            "webLink": "https://garbagecode1984.github.io/pf-onestore/"
+        },
+        {
+            "id": 1,
+            "mainImage": "/project3.PNG",
+            "name": "포트폴리오 웹사이트",
+            "role": "Front-end",
+            "explain": "지금까지 작업한 결과물을 소개하기 위한 포트폴리오 웹사이트",
+            "stack": "React SCSS bootstrap",
+            "res": "https://github.com/GarbageCode1984/pf-PortfolioWebSite",
+            "webLink": "https://portfoliowebsite1984.netlify.app/"
+        }
+    ]
+}
