@@ -18,28 +18,45 @@
 }
 .cardRole {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     padding: 15px 0;
     p {
         margin-right: 5px;
+        padding: 10px 0px;
     }
     div {
         background-color: #bbbbbb4a;
         border-radius: 5px;
-        padding: 0 15px;
+        padding: 10px 15px;
     }
 }
 .cardStack {
-    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    p {
+        margin-right: 5px;
+        padding: 10px 0px;
+    }
+    div {
+        background-color: #bbbbbb4a;
+        color: rgb(244, 129, 117);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
 }
-.cardRes {
-    color: rgb(136, 136, 136);
-    padding: 15px 0;
-}
-.webLink {
-    color: #000;
-    &:hover {
-        color: #fff;
+.resWebWrap {
+    margin: 15px;
+    .cardRes {
+        margin-right: 10px;
+        color: rgb(136, 136, 136);
+        padding: 15px 0;
+    }
+    .webLink {
+        color: #000;
+        &:hover {
+            color: #fff;
+        }
     }
 }
