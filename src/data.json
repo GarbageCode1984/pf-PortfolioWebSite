@@ -1,17 +1,87 @@
 {
     "items": [
         {
-            "id": 0,
+            "id": 8,
+            "mainImage": "/project13.PNG",
+            "name": "H&B",
+            "role": "Front-end",
+            "explain": "쇼핑몰 사이트로 로그인과 검색 기능, 상세페이지를 구현했습니다.",
+            "stack": "React",
+            "res": "https://github.com/GarbageCode1984/pf-React-HNM",
+            "webLink": "https://hnm1984.netlify.app/"
+        },
+        {
+            "id": 7,
+            "mainImage": "/project6.PNG",
+            "name": "Phone Book",
+            "role": "Front-end",
+            "explain": "간단한 연락처 저장, 검색 기능이 있는 사이트입니다. 이름과 연락처를 리덕스로 저장하고 사용했습니다.",
+            "stack": "React Redux",
+            "res": "https://github.com/GarbageCode1984/pf-React-phoneBook",
+            "webLink": "https://phonebook1984.netlify.app/"
+        },
+        {
+            "id": 6,
+            "mainImage": "/project7.PNG",
+            "name": "TodoList",
+            "role": "Front-end",
+            "explain": "React로 만든 TodoList입니다.",
+            "stack": "React",
+            "res": "https://github.com/GarbageCode1984/pf-React-Todo",
+            "webLink": "https://todolist1984.netlify.app/"
+        },
+        {
+            "id": 5,
+            "mainImage": "/project8.PNG",
+            "name": "TodoList",
+            "role": "Front-end",
+            "explain": "Vue로 만든 TodoList입니다.",
+            "stack": "Vue",
+            "res": "https://github.com/GarbageCode1984/pf-Vue-TodoList",
+            "webLink": "https://vue-todolist1984.netlify.app/"
+        },
+        {
+            "id": 4,
+            "mainImage": "/project9.PNG",
+            "name": "카카오톡",
+            "role": "Front-end",
+            "explain": "PWA를 이용해서 만든 웹 앱입니다.",
+            "stack": "HTML SCSS JS PWA",
+            "res": "https://github.com/GarbageCode1984/pf-kakaoApp",
+            "webLink": "https://garbagecode1984.github.io/pf-kakaoApp/"
+        },
+        {
+            "id": 3,
+            "mainImage": "/project11.PNG",
+            "name": "60seconds",
+            "role": "Front-end",
+            "explain": "기업형 사이트로 반응형 웹을 적용하여 모바일 버전과 PC버전으로 구현한 사이트입니다.",
+            "stack": "HTML CSS bootstrap",
+            "res": "https://github.com/GarbageCode1984/pf-60seconds",
+            "webLink": "https://garbagecode1984.github.io/pf-60seconds/"
+        },
+        {
+            "id": 2,
+            "mainImage": "/project4.PNG",
+            "name": "빙그레",
+            "role": "Front-end",
+            "explain": "기업형 사이트로 반응형 웹을 적용하여 모바일 버전과 PC버전으로 구현한 사이트입니다.",
+            "stack": "HTML CSS",
+            "res": "https://github.com/GarbageCode1984/pf-bing",
+            "webLink": "https://garbagecode1984.github.io/pf-bing/"
+        },
+        {
+            "id": 1,
             "mainImage": "/project1.PNG",
             "name": "원스토어",
             "role": "Front-end",
-            "explain": "기업형 사이트로 반응형 웹을 적용하여 모바일 버전과 PC버전으로 구현한 사이트",
+            "explain": "기업형 사이트로 반응형 웹을 적용하여 모바일 버전과 PC버전으로 구현한 사이트입니다.",
             "stack": "HTML CSS JS",
             "res": "https://github.com/GarbageCode1984/pf-onestore",
             "webLink": "https://garbagecode1984.github.io/pf-onestore/"
         },
         {
-            "id": 1,
+            "id": 0,
             "mainImage": "/project3.PNG",
             "name": "포트폴리오 웹사이트",
             "role": "Front-end",
