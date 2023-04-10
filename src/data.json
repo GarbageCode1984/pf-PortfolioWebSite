@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "id": 8,
+            "id": 9,
             "mainImage": "/project13.PNG",
             "name": "H&B",
             "role": "Front-end",
@@ -11,7 +11,7 @@
             "webLink": "https://hnm1984.netlify.app/"
         },
         {
-            "id": 7,
+            "id": 8,
             "mainImage": "/project6.PNG",
             "name": "Phone Book",
             "role": "Front-end",
@@ -19,6 +19,16 @@
             "stack": "React Redux",
             "res": "https://github.com/GarbageCode1984/pf-React-phoneBook",
             "webLink": "https://phonebook1984.netlify.app/"
+        },
+        {
+            "id": 7,
+            "mainImage": "/project14.PNG",
+            "name": "TodoList",
+            "role": "Front-end",
+            "explain": " geolocation API, openweathermap API를 활용해 날씨에 따라 배경화면을 바뀌게 만든 TodoList입니다.",
+            "stack": "HTML CSS JS",
+            "res": "https://github.com/GarbageCode1984/ToDo-List",
+            "webLink": "https://garbagecode1984.github.io/ToDo-List/"
         },
         {
             "id": 6,
