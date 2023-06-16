@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "id": 10,
+            "mainImage": "/project15.PNG",
+            "name": "NetFlix",
+            "role": "Front-end",
+            "explain": "TMDB에서 제공해주는 API를 이용해서 넷플릭스 사이트를 만들었습니다.",
+            "stack": "React",
+            "res": "https://github.com/GarbageCode1984/react-netflix-clone",
+            "webLink": "https://garbagecode1984.github.io/react-netflix-clone/"
+        },
+        {
             "id": 9,
             "mainImage": "/project13.PNG",
             "name": "H&B",
