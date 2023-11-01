@@ -1,6 +1,16 @@
 {
     "items": [
         {
+            "id": 11,
+            "mainImage": "/project16.PNG",
+            "name": "Latte_Talk",
+            "role": "Full-stack",
+            "explain": "Socket.IO를 이용한 실시간 채팅 웹 프로젝트입니다.",
+            "stack": "React, Express, MongoDB",
+            "res": "https://github.com/GarbageCode1984/Latte_Talk",
+            "webLink": "https://web-latte-talk2-jvpb2mloe372no.sel5.cloudtype.app/"
+        },
+        {
             "id": 10,
             "mainImage": "/project15.PNG",
             "name": "NetFlix",
