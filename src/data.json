@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "id": 11,
+            "id": 12,
             "mainImage": "/project16.PNG",
             "name": "Latte_Talk",
             "role": "Full-stack",
@@ -9,6 +9,16 @@
             "stack": "React, Express, MongoDB",
             "res": "https://github.com/GarbageCode1984/Latte_Talk",
             "webLink": "https://web-latte-talk2-jvpb2mloe372no.sel5.cloudtype.app/"
+        },
+        {
+            "id": 11,
+            "mainImage": "/project17.PNG",
+            "name": "minesweeper",
+            "role": "Front-end",
+            "explain": "고전 명작 게임인 지뢰찾기입니다..",
+            "stack": "Vue",
+            "res": "https://github.com/GarbageCode1984/mines_weeper",
+            "webLink": "https://minegame1984.netlify.app/"
         },
         {
             "id": 10,
