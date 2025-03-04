@@ -2,6 +2,16 @@
     "items": [
         {
             "id": 12,
+            "mainImage": "/project18.PNG",
+            "name": "GameBox",
+            "role": "Front-end",
+            "explain": "미니게임 모음집입니다.",
+            "stack": "React",
+            "res": "https://github.com/GarbageCode1984/gameBox",
+            "webLink": "https://quiet-unicorn-b433e2.netlify.app/"
+        },
+        {
+            "id": 12,
             "mainImage": "/project16.PNG",
             "name": "Latte_Talk",
             "role": "Full-stack",
