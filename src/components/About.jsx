@@ -1,4 +1,3 @@
-import React from "react";
 import "./scss/about.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Bounce from "react-reveal/Bounce";
@@ -8,38 +7,55 @@ function About() {
         <div id="about">
             <Container>
                 <Bounce bottom>
-                    <Row>
+                    <Row className="align-items-center">
                         <div className="aboutWrap">
-                            <Col>
+                            <Col md={6}>
                                 <div className="aboutLeft">
                                     <img src="/smiling-face.png" alt="smiling" />
-                                    <div>
-                                        <p>
-                                            탄탄한 기본기를 다지고 새로운 기술을 배우며
-                                            <br /> 빠르게 변화하는 웹 트렌트에 적응하고
-                                            <br />
-                                            열심히 배우는 개발자가 되고 싶습니다.
-                                        </p>
-                                    </div>
+                                    <p>
+                                        사용자 경험을 중심으로 설계하는 웹 개발자입니다.
+                                        <br />
+                                        프론트엔드를 기반으로 API 구축과 배포까지 수행했습니다.
+                                        <br />
+                                        문제를 분석하고 해결하는 과정을 즐기며
+                                        <br />
+                                        실전 환경에서의 이슈 해결 경험을 쌓아가고 있습니다.
+                                    </p>
                                 </div>
                             </Col>
-                            <Col>
-                                <div className="aboutRight">
-                                    <div className="profile">
-                                        <h1>Profile</h1>
-                                        <p>이름 : 서우석</p>
-                                        <p>생년월일 : 1997.03.24</p>
-                                        <p>거주지 : 경기도 부천시</p>
-                                        <p>이메일 : sws970324@gmail.com</p>
-                                        <p>연락처 : 010-2384-8903</p>
-                                    </div>
-                                    <div className="Education">
-                                        <h1>Education</h1>
-                                        <p>2018.9.1 ~ 2024.3 : 방송통신대 컴퓨터과학과 졸업</p>
+
+                            <Col md={6}>
+                                <div className="aboutCard">
+                                    <h2 className="cardTitle">Contact</h2>
+
+                                    <div className="cardSection">
+                                        <p className="name">서우석</p>
+                                        <p>sws970324@gmail.com</p>
                                         <p>
-                                            2022. 7. 13 ~ 2023. 1. 5 : 프로젝트기반 프론트엔드(React, Vue) 웹&앱 SW개발자 양성 과정 강남 그린 컴퓨터 아카데미
-                                            수료
+                                            GitHub :
+                                            <a
+                                                href="https://github.com/GarbageCode1984"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                github.com/GarbageCode1984
+                                            </a>
                                         </p>
+                                    </div>
+
+                                    <div className="divider" />
+
+                                    <div className="cardSection">
+                                        <h3>Education</h3>
+                                        <p>컴퓨터과학 전공</p>
+                                        <p>React 기반 웹 개발 과정 수료</p>
+                                    </div>
+
+                                    <div className="divider" />
+
+                                    <div className="cardSection">
+                                        <h3>Certification</h3>
+                                        <p>정보처리기사</p>
                                     </div>
                                 </div>
                             </Col>

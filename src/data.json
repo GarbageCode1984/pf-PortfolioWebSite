@@ -2,6 +2,16 @@
     "items": [
         {
             "id": 13,
+            "mainImage": "/project19.PNG",
+            "name": "GreenCart",
+            "role": "Full-stack",
+            "explain": "React + Express + MongoDB 기반 중고거래 플랫폼",
+            "stack": "React, Express, MongoDB, JWT, Kakao OAuth",
+            "res": "https://github.com/GarbageCode1984/GreenCart",
+            "webLink": "https://green-cart-two.vercel.app/"
+        },
+        {
+            "id": 12,
             "mainImage": "/project16.PNG",
             "name": "Latte_Talk",
             "role": "Full-stack",
@@ -11,7 +21,7 @@
             "webLink": "https://web-latte-talk2-jvpb2mloe372no.sel5.cloudtype.app/"
         },
         {
-            "id": 12,
+            "id": 11,
             "mainImage": "/project18.PNG",
             "name": "GameBox",
             "role": "Front-end",
@@ -19,16 +29,6 @@
             "stack": "React",
             "res": "https://github.com/GarbageCode1984/gameBox",
             "webLink": "https://quiet-unicorn-b433e2.netlify.app/"
-        },
-        {
-            "id": 11,
-            "mainImage": "/project17.PNG",
-            "name": "minesweeper",
-            "role": "Front-end",
-            "explain": "고전 명작 게임인 지뢰찾기입니다..",
-            "stack": "Vue",
-            "res": "https://github.com/GarbageCode1984/mines_weeper",
-            "webLink": "https://minegame1984.netlify.app/"
         },
         {
             "id": 10,
